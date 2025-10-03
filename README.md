@@ -16,12 +16,12 @@ To run this project, you will need:
 ## Usage
 - Set Parameters: Modify the parameters.m file to define the simulation parameters, such as the geometry, number of Stokeslets, and time-stepping details.
 - Run Simulation:
--- Directly in MATLAB: CalculateTrajectory() can be run directly in the command window.
--- From the command line: The runFunction.sh file is intended to run the MATLAB function from a terminal.
+- - Directly in MATLAB: CalculateTrajectory() can be run directly in the command window.
+- - From the command line: The runFunction.sh file is intended to run the MATLAB function from a terminal.
   
     `matlab -nodisplay -nosplash -nodesktop -r "CalculateTrajectory(1); exit;"`
 
--- The output of the simulation is saved in the outputs/ directory.
+- - The output of the simulation is saved in the outputs/ directory.
 - Analyse Output: You can then use the calculate_metrics.m script to analyse the generated data.
 
 # File Descriptions
